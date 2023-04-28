@@ -1,0 +1,18 @@
+20230426-17:03:39.474 : connected
+20230426-17:03:47.819 : Error on Session 'FIX.4.2:SIMPLE->CLIENT1': System.IO.IOException: Unable to write data to the transport connection: Uma conexão estabelecida foi anulada pelo software no computador host..
+ ---> System.Net.Sockets.SocketException (10053): Uma conexão estabelecida foi anulada pelo software no computador host.
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at QuickFix.SocketReader.Send(String data)
+   at QuickFix.ClientHandlerThread.Send(String data)
+   at QuickFix.Session.Send(String message)
+   at QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   at QuickFix.Session.GenerateResendRequestRange(String beginString, Int32 startSeqNum, Int32 endSeqNum)
+   at QuickFix.Session.GenerateResendRequest(String beginString, Int32 msgSeqNum)
+   at QuickFix.Session.DoTargetTooHigh(Message msg, Int32 msgSeqNum)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20230426-17:03:47.823 : SocketReader Error: Socket exception (127.0.0.1:60539): Uma conexão estabelecida foi anulada pelo software no computador host.
+20230426-17:03:47.823 : shutdown requested: Disconnected

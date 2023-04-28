@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "QuickFIXn.Core/1.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        }
+      },
+      "QuickFIXn.FIX4.2/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "QuickFIXn.Core": "1.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/QuickFix.FIX42.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.FIX42.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuickFIXn.Core/1.10.0": {
+      "sha512": "sZ2yCSwC3qKoKxjPseAnMNXwskvGvBEuWuiJfZWGfLV1C5NwInLOS5N3o0ZN666N9HDAVPzRKUxPGQvb1GgOOw==",
+      "type": "package",
+      "path": "quickfixn.core/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.dll",
+        "lib/netstandard2.0/QuickFix.xml",
+        "quickfixn.core.1.10.0.nupkg.sha512",
+        "quickfixn.core.nuspec"
+      ]
+    },
+    "QuickFIXn.FIX4.2/1.10.0": {
+      "sha512": "Fu+1VX+TrR7fKxRMGT1LABjdKz3uhpkK0IoVUNFNTxK2WO327vHUruSGYpeJQpaqW+EEusTbDjMyAS+y6qtfHw==",
+      "type": "package",
+      "path": "quickfixn.fix4.2/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.FIX42.dll",
+        "quickfixn.fix4.2.1.10.0.nupkg.sha512",
+        "quickfixn.fix4.2.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "QuickFIXn.Core >= 1.10.0",
+      "QuickFIXn.FIX4.2 >= 1.10.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asasc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asasc\\source\\repos\\OrderAccumulator\\OrderAccumulator\\OrderAccumulator.csproj",
+      "projectName": "OrderAccumulator",
+      "projectPath": "C:\\Users\\asasc\\source\\repos\\OrderAccumulator\\OrderAccumulator\\OrderAccumulator.csproj",
+      "packagesPath": "C:\\Users\\asasc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asasc\\source\\repos\\OrderAccumulator\\OrderAccumulator\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\asasc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/BancoArbi/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "QuickFIXn.Core": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          },
+          "QuickFIXn.FIX4.2": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

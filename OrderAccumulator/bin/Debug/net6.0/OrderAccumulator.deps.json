@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OrderAccumulator/1.0.0": {
+        "dependencies": {
+          "QuickFIXn.Core": "1.10.0",
+          "QuickFIXn.FIX4.2": "1.10.0"
+        },
+        "runtime": {
+          "OrderAccumulator.dll": {}
+        }
+      },
+      "QuickFIXn.Core/1.10.0": {
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
+          }
+        }
+      },
+      "QuickFIXn.FIX4.2/1.10.0": {
+        "dependencies": {
+          "QuickFIXn.Core": "1.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.FIX42.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderAccumulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuickFIXn.Core/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sZ2yCSwC3qKoKxjPseAnMNXwskvGvBEuWuiJfZWGfLV1C5NwInLOS5N3o0ZN666N9HDAVPzRKUxPGQvb1GgOOw==",
+      "path": "quickfixn.core/1.10.0",
+      "hashPath": "quickfixn.core.1.10.0.nupkg.sha512"
+    },
+    "QuickFIXn.FIX4.2/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fu+1VX+TrR7fKxRMGT1LABjdKz3uhpkK0IoVUNFNTxK2WO327vHUruSGYpeJQpaqW+EEusTbDjMyAS+y6qtfHw==",
+      "path": "quickfixn.fix4.2/1.10.0",
+      "hashPath": "quickfixn.fix4.2.1.10.0.nupkg.sha512"
+    }
+  }
+}

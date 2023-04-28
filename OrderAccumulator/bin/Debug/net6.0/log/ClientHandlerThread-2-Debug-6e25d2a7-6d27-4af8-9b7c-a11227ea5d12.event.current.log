@@ -1,0 +1,9 @@
+20230426-02:49:10.993 : connected
+20230426-02:51:16.294 : Error on Session 'FIX.4.2:SIMPLE->CLIENT1': System.NotImplementedException: The method or operation is not implemented.
+   at Accumulator.FromAdmin(Message message, SessionID sessionID) in C:\Users\asasc\source\repos\OrderAccumulator\OrderAccumulator\OrderAccumulator.cs:line 103
+   at QuickFix.Session.Verify(Message msg, Boolean checkTooHigh, Boolean checkTooLow)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20230426-02:51:16.294 : shutdown requested: Disconnected
+20230426-02:51:16.301 : shutdown

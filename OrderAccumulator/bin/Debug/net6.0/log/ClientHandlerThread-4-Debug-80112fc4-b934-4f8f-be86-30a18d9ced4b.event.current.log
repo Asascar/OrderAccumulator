@@ -1,0 +1,8 @@
+20230427-20:14:26.587 : connected
+20230427-20:14:43.718 : SocketReader Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at QuickFix.SocketReader.HandleNewSession(String msg)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+   at QuickFix.SocketReader.ProcessStream()
+   at QuickFix.SocketReader.Read()
+20230427-20:14:43.718 : shutdown requested: Object reference not set to an instance of an object.
+20230427-20:14:43.719 : shutdown

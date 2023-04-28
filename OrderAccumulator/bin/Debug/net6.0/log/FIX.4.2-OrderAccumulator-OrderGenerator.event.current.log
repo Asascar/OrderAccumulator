@@ -1,0 +1,298 @@
+20230426-20:19:25.731 : Created session
+20230426-20:20:28.635 : Created session
+20230426-20:20:54.953 : Created session
+20230427-18:56:59.385 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Resetting...
+20230427-18:56:59.392 : Session reset: New session
+20230427-18:56:59.393 : Created session
+20230427-18:57:08.127 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49767
+20230427-18:57:08.127 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-18:57:08.162 : Received logon
+20230427-18:57:08.169 : Responding to logon request
+20230427-18:58:46.682 : Created session
+20230427-18:58:46.909 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49770
+20230427-18:58:46.909 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-18:58:46.942 : Received logon
+20230427-18:58:46.949 : Responding to logon request
+20230427-18:59:00.283 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49770): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-18:59:23.005 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 36610825 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49774
+20230427-18:59:23.005 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-18:59:23.005 : Received logon
+20230427-18:59:23.006 : Responding to logon request
+20230427-19:00:36.568 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49774): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:00:38.372 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 59457177 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49781
+20230427-19:00:38.372 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:00:38.373 : Received logon
+20230427-19:00:38.374 : Responding to logon request
+20230427-19:02:45.707 : Sent test request TEST
+20230427-19:02:47.022 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49781): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:02:48.714 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 826143 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49799
+20230427-19:02:48.714 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:02:48.714 : Received logon
+20230427-19:02:48.715 : Responding to logon request
+20230427-19:02:48.737 : Got resend request from 13 to 0
+20230427-19:02:48.740 : Sent SequenceReset TO: 16
+20230427-19:03:57.525 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49799): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:03:59.273 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 9152318 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49803
+20230427-19:03:59.273 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:03:59.274 : Received logon
+20230427-19:03:59.276 : Responding to logon request
+20230427-19:10:22.631 : Multiple logons/connections for this session are not allowed (127.0.0.1:49832)
+20230427-19:10:22.633 : Multiple logons/connections for this session are not allowed (127.0.0.1:49833)
+20230427-19:10:22.635 : Multiple logons/connections for this session are not allowed (127.0.0.1:49834)
+20230427-19:10:22.637 : Multiple logons/connections for this session are not allowed (127.0.0.1:49835)
+20230427-19:10:22.641 : Multiple logons/connections for this session are not allowed (127.0.0.1:49841)
+20230427-19:10:22.645 : Multiple logons/connections for this session are not allowed (127.0.0.1:49842)
+20230427-19:10:22.647 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Timed out waiting for heartbeat
+20230427-19:10:22.650 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 60146824 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49843
+20230427-19:10:22.650 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:10:22.650 : Sending time accuracy problem
+20230427-19:10:22.654 : Multiple logons/connections for this session are not allowed (127.0.0.1:49844)
+20230427-19:10:22.657 : Multiple logons/connections for this session are not allowed (127.0.0.1:49846)
+20230427-19:10:22.661 : Multiple logons/connections for this session are not allowed (127.0.0.1:49849)
+20230427-19:10:22.664 : Multiple logons/connections for this session are not allowed (127.0.0.1:49850)
+20230427-19:10:22.666 : Multiple logons/connections for this session are not allowed (127.0.0.1:49852)
+20230427-19:10:22.667 : Message 30 Rejected: 10
+20230427-19:10:22.668 : Multiple logons/connections for this session are not allowed (127.0.0.1:49853)
+20230427-19:10:22.668 : Verify failed: Tried to send a reject while not logged on
+20230427-19:10:22.668 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Verify failed: Tried to send a reject while not logged on
+20230427-19:10:22.672 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 16552238 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49857
+20230427-19:10:22.672 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:10:22.673 : Received logon
+20230427-19:10:22.674 : Responding to logon request
+20230427-19:10:22.675 : MsgSeqNum too high, expecting 22 but received 38
+20230427-19:10:22.676 : Multiple logons/connections for this session are not allowed (127.0.0.1:49858)
+20230427-19:10:22.697 : Multiple logons/connections for this session are not allowed (127.0.0.1:49859)
+20230427-19:10:22.698 : Multiple logons/connections for this session are not allowed (127.0.0.1:49862)
+20230427-19:10:22.727 : Multiple logons/connections for this session are not allowed (127.0.0.1:49863)
+20230427-19:10:22.728 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49857): Uma conexão estabelecida foi anulada pelo software no computador host.
+20230427-19:10:22.732 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 59108199 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49864
+20230427-19:10:22.732 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:10:22.733 : Received logon
+20230427-19:10:22.734 : Responding to logon request
+20230427-19:10:22.734 : MsgSeqNum too high, expecting 22 but received 43
+20230427-19:10:22.736 : Multiple logons/connections for this session are not allowed (127.0.0.1:49872)
+20230427-19:10:22.738 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49864): Uma conexão estabelecida foi anulada pelo software no computador host.
+20230427-19:10:22.822 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 48419816 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:49873
+20230427-19:10:22.822 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:10:22.822 : Received logon
+20230427-19:10:22.823 : Responding to logon request
+20230427-19:10:22.823 : MsgSeqNum too high, expecting 22 but received 45
+20230427-19:10:22.824 : Sent ResendRequest FROM: 22 TO: 0
+20230427-19:10:22.828 : Got resend request from 22 to 0
+20230427-19:10:22.829 : Sent SequenceReset TO: 28
+20230427-19:10:22.836 : ResendRequest for messages FROM: 22 TO: 0 has been satisfied.
+20230427-19:10:22.837 : Received SequenceReset FROM: 22 TO: 27
+20230427-19:10:27.183 : Received SequenceReset FROM: 28 TO: 37
+20230427-19:10:28.248 : Received SequenceReset FROM: 38 TO: 47
+20230427-19:11:29.380 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:49873): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:16:39.293 : Created session
+20230427-19:16:48.355 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50076
+20230427-19:16:48.355 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:16:48.383 : Received logon
+20230427-19:16:48.389 : Responding to logon request
+20230427-19:16:48.413 : Got resend request from 30 to 0
+20230427-19:16:48.415 : Sent SequenceReset TO: 32
+20230427-19:20:02.899 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:50076): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:28:14.600 : Created session
+20230427-19:28:20.913 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50379
+20230427-19:28:20.913 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:28:20.943 : Received logon
+20230427-19:28:20.952 : Responding to logon request
+20230427-19:28:20.988 : Got resend request from 37 to 0
+20230427-19:28:20.993 : Sent SequenceReset TO: 39
+20230427-19:30:28.072 : Sent test request TEST
+20230427-19:31:04.413 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Timed out waiting for heartbeat
+20230427-19:34:18.097 : Created session
+20230427-19:34:21.395 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50551
+20230427-19:34:21.395 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:34:21.425 : Received logon
+20230427-19:34:21.431 : Responding to logon request
+20230427-19:34:57.750 : Sent test request TEST
+20230427-19:35:34.078 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Timed out waiting for heartbeat
+20230427-19:36:45.933 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39891323 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50602
+20230427-19:36:45.933 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:36:45.934 : Received logon
+20230427-19:36:45.935 : Responding to logon request
+20230427-19:36:45.935 : MsgSeqNum too high, expecting 63 but received 64
+20230427-19:36:45.936 : Sent ResendRequest FROM: 63 TO: 0
+20230427-19:36:48.460 : Got resend request from 41 to 0
+20230427-19:36:48.462 : Sent SequenceReset TO: 49
+20230427-19:36:51.402 : ResendRequest for messages FROM: 63 TO: 0 has been satisfied.
+20230427-19:36:51.407 : Processing queued message: 64
+20230427-19:37:27.740 : Sent test request TEST
+20230427-19:37:28.526 : MsgSeqNum too high, expecting 65 but received 66
+20230427-19:37:28.527 : Sent ResendRequest FROM: 65 TO: 0
+20230427-19:37:35.824 : MsgSeqNum too high, expecting 65 but received 67
+20230427-19:37:35.824 : Already sent ResendRequest FROM: 65 TO: 0.  Not sending another.
+20230427-19:37:41.351 : ResendRequest for messages FROM: 65 TO: 0 has been satisfied.
+20230427-19:37:41.351 : Received SequenceReset FROM: 65 TO: 68
+20230427-19:39:19.595 : Created session
+20230427-19:39:22.687 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50625
+20230427-19:39:22.687 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:39:22.714 : Received logon
+20230427-19:39:22.720 : Responding to logon request
+20230427-19:39:22.744 : Got resend request from 53 to 0
+20230427-19:39:22.747 : Sent SequenceReset TO: 55
+20230427-19:40:42.012 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:50625): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:40:57.964 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 64581384 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50649
+20230427-19:40:57.964 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-19:40:57.964 : Received logon
+20230427-19:40:57.965 : Responding to logon request
+20230427-19:42:37.463 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:50649): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:43:04.998 : Created session
+20230427-19:43:08.131 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50675
+20230427-19:43:08.131 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:43:08.162 : Received logon
+20230427-19:43:08.169 : Responding to logon request
+20230427-19:46:15.118 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:50675): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:48:24.031 : Created session
+20230427-19:48:27.531 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50756
+20230427-19:48:27.531 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:48:27.563 : Received logon
+20230427-19:48:27.571 : Responding to logon request
+20230427-19:53:50.000 : Created session
+20230427-19:53:54.334 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50882
+20230427-19:53:54.334 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:53:54.364 : Received logon
+20230427-19:53:54.370 : Responding to logon request
+20230427-19:53:54.371 : MsgSeqNum too high, expecting 92 but received 101
+20230427-19:53:54.372 : Sent ResendRequest FROM: 92 TO: 0
+20230427-19:53:54.398 : Got resend request from 71 to 0
+20230427-19:53:54.401 : Sent SequenceReset TO: 74
+20230427-19:53:54.403 : ResendRequest for messages FROM: 92 TO: 0 has been satisfied.
+20230427-19:53:54.427 : Processing queued message: 101
+20230427-19:54:06.367 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:50882): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230427-19:55:23.977 : Created session
+20230427-19:55:27.172 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:50940
+20230427-19:55:27.173 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-19:55:27.202 : Received logon
+20230427-19:55:27.209 : Responding to logon request
+20230427-19:55:27.209 : MsgSeqNum too high, expecting 102 but received 103
+20230427-19:55:27.210 : Sent ResendRequest FROM: 102 TO: 0
+20230427-19:55:27.233 : Got resend request from 71 to 0
+20230427-19:55:27.236 : Sent SequenceReset TO: 74
+20230427-19:55:27.236 : Sent SequenceReset TO: 82
+20230427-19:55:27.237 : ResendRequest for messages FROM: 102 TO: 0 has been satisfied.
+20230427-19:55:27.238 : Received SequenceReset FROM: 102 TO: 105
+20230427-19:55:34.646 : Got resend request from 81 to 0
+20230427-19:55:34.647 : Sent SequenceReset TO: 82
+20230427-20:06:52.304 : Created session
+20230427-20:06:55.403 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:51173
+20230427-20:06:55.403 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-20:06:55.430 : Received logon
+20230427-20:06:55.436 : Responding to logon request
+20230427-20:06:55.437 : MsgSeqNum too high, expecting 117 but received 136
+20230427-20:06:55.438 : Sent ResendRequest FROM: 117 TO: 0
+20230427-20:06:55.461 : ResendRequest for messages FROM: 117 TO: 0 has been satisfied.
+20230427-20:08:01.730 : Created session
+20230427-20:08:02.391 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:51183
+20230427-20:08:02.391 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-20:08:02.423 : Received logon
+20230427-20:08:02.431 : Responding to logon request
+20230427-20:08:02.431 : MsgSeqNum too high, expecting 120 but received 153
+20230427-20:08:02.432 : Sent ResendRequest FROM: 120 TO: 0
+20230427-20:08:02.459 : ResendRequest for messages FROM: 120 TO: 0 has been satisfied.
+20230427-20:12:33.924 : Created session
+20230427-20:12:37.982 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:51264
+20230427-20:12:37.982 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230427-20:12:38.011 : Received logon
+20230427-20:12:38.017 : Responding to logon request
+20230427-20:12:38.017 : MsgSeqNum too high, expecting 120 but received 268
+20230427-20:12:38.018 : Sent ResendRequest FROM: 120 TO: 0
+20230427-20:12:38.040 : ResendRequest for messages FROM: 120 TO: 0 has been satisfied.
+20230427-20:14:20.419 : Multiple logons/connections for this session are not allowed (127.0.0.1:51285)
+20230427-20:14:20.430 : Multiple logons/connections for this session are not allowed (127.0.0.1:51292)
+20230427-20:14:26.582 : Multiple logons/connections for this session are not allowed (127.0.0.1:51301)
+20230427-20:14:26.593 : Multiple logons/connections for this session are not allowed (127.0.0.1:51302)
+20230427-20:14:37.428 : Multiple logons/connections for this session are not allowed (127.0.0.1:51303)
+20230427-20:14:40.110 : Multiple logons/connections for this session are not allowed (127.0.0.1:51307)
+20230427-20:14:43.715 : Multiple logons/connections for this session are not allowed (127.0.0.1:51308)
+20230427-20:14:43.716 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Timed out waiting for heartbeat
+20230427-20:14:43.957 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 61669314 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:51310
+20230427-20:14:43.957 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 30 seconds
+20230427-20:14:43.957 : Received logon
+20230427-20:14:43.957 : Responding to logon request
+20230427-20:14:43.957 : MsgSeqNum too high, expecting 121 but received 403
+20230427-20:14:43.958 : Sent ResendRequest FROM: 121 TO: 0
+20230427-20:14:43.961 : Got resend request from 97 to 0
+20230427-20:14:43.964 : Sent SequenceReset TO: 100
+20230427-20:14:43.964 : ResendRequest for messages FROM: 121 TO: 0 has been satisfied.
+20230428-00:20:56.546 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Resetting...
+20230428-00:20:56.552 : Session reset: New session
+20230428-00:20:56.553 : Created session
+20230428-00:21:12.799 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 33156464 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56775
+20230428-00:21:12.799 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:21:12.829 : Received logon
+20230428-00:21:12.835 : Responding to logon request
+20230428-00:21:12.835 : MsgSeqNum too high, expecting 1 but received 4
+20230428-00:21:12.836 : Sent ResendRequest FROM: 1 TO: 0
+20230428-00:21:12.883 : ResendRequest for messages FROM: 1 TO: 0 has been satisfied.
+20230428-00:24:40.686 : Created session
+20230428-00:24:44.811 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56826
+20230428-00:24:44.811 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:24:44.834 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Received msg type 'D' when not logged on
+20230428-00:24:44.836 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Received msg type 'D' when not logged on
+20230428-00:24:45.768 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 58366981 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56827
+20230428-00:24:45.768 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:24:45.777 : Received logon
+20230428-00:24:45.784 : Responding to logon request
+20230428-00:24:45.784 : MsgSeqNum too high, expecting 1 but received 10
+20230428-00:24:45.786 : Sent ResendRequest FROM: 1 TO: 0
+20230428-00:24:45.809 : ResendRequest for messages FROM: 1 TO: 0 has been satisfied.
+20230428-00:25:21.487 : Created session
+20230428-00:25:24.195 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56839
+20230428-00:25:24.196 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:25:24.220 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Received msg type 'D' when not logged on
+20230428-00:25:24.222 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Received msg type 'D' when not logged on
+20230428-00:25:25.146 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56840
+20230428-00:25:25.146 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:25:25.154 : Received logon
+20230428-00:25:25.160 : Responding to logon request
+20230428-00:25:25.161 : MsgSeqNum too high, expecting 2 but received 16
+20230428-00:25:25.162 : Sent ResendRequest FROM: 2 TO: 0
+20230428-00:25:25.187 : ResendRequest for messages FROM: 2 TO: 0 has been satisfied.
+20230428-00:26:26.694 : Created session
+20230428-00:26:42.481 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 33156464 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56859
+20230428-00:26:42.481 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:26:42.504 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Received msg type 'D' when not logged on
+20230428-00:26:42.506 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Received msg type 'D' when not logged on
+20230428-00:27:01.066 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 7995840 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56865
+20230428-00:27:01.066 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:27:01.066 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Received msg type 'D' when not logged on
+20230428-00:27:11.129 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 15510466 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56867
+20230428-00:27:11.129 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:27:11.137 : Received logon
+20230428-00:27:11.142 : Responding to logon request
+20230428-00:27:11.143 : MsgSeqNum too high, expecting 3 but received 25
+20230428-00:27:11.144 : Sent ResendRequest FROM: 3 TO: 0
+20230428-00:27:11.162 : Got resend request from 10 to 0
+20230428-00:27:11.164 : Sent SequenceReset TO: 13
+20230428-00:27:11.165 : ResendRequest for messages FROM: 3 TO: 0 has been satisfied.
+20230428-00:27:54.255 : Sent test request TEST
+20230428-00:27:54.256 : Received SequenceReset FROM: 4 TO: 6
+20230428-00:28:25.601 : Multiple logons/connections for this session are not allowed (127.0.0.1:56881)
+20230428-00:28:28.337 : Multiple logons/connections for this session are not allowed (127.0.0.1:56882)
+20230428-00:28:52.555 : Created session
+20230428-00:28:58.683 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 39086322 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56891
+20230428-00:28:58.684 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:28:58.707 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Received msg type 'D' when not logged on
+20230428-00:28:58.709 : Session FIX.4.2:OrderAccumulator->OrderGenerator already disconnected: Received msg type 'D' when not logged on
+20230428-00:28:59.634 : FIX.4.2:OrderAccumulator->OrderGenerator Socket Reader 20974680 accepting session FIX.4.2:OrderAccumulator->OrderGenerator from 127.0.0.1:56892
+20230428-00:28:59.635 : FIX.4.2:OrderAccumulator->OrderGenerator Acceptor heartbeat set to 0 seconds
+20230428-00:28:59.642 : Received logon
+20230428-00:28:59.648 : Responding to logon request
+20230428-00:28:59.648 : MsgSeqNum too high, expecting 7 but received 38
+20230428-00:28:59.649 : Sent ResendRequest FROM: 7 TO: 0
+20230428-00:28:59.673 : Got resend request from 12 to 0
+20230428-00:28:59.675 : Sent SequenceReset TO: 13
+20230428-00:28:59.676 : Sent SequenceReset TO: 15
+20230428-00:28:59.676 : Sent SequenceReset TO: 19
+20230428-00:28:59.676 : ResendRequest for messages FROM: 7 TO: 0 has been satisfied.
+20230428-00:29:23.753 : Received SequenceReset FROM: 9 TO: 12
+20230428-00:29:29.243 : Received SequenceReset FROM: 15 TO: 17
+20230428-00:29:52.999 : Received SequenceReset FROM: 20 TO: 21
+20230428-00:29:58.197 : Received SequenceReset FROM: 24 TO: 34
+20230428-00:30:01.076 : Received SequenceReset FROM: 37 TO: 40
+20230428-00:30:01.077 : Got resend request from 18 to 0
+20230428-00:30:01.077 : Sent SequenceReset TO: 19
+20230428-00:31:01.926 : Session FIX.4.2:OrderAccumulator->OrderGenerator disconnecting: Socket exception (127.0.0.1:56892): Foi forçado o cancelamento de uma conexão existente pelo host remoto.

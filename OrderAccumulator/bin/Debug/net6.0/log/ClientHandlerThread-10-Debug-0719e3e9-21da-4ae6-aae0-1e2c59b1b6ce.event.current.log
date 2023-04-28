@@ -1,0 +1,10 @@
+20230427-19:10:22.643 : connected
+20230427-19:10:22.673 : SocketReader Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.<ThrowIfDisposed>g__ThrowObjectDisposedException|63_0()
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)
+   at QuickFix.SocketReader.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketReader.Read()
+20230427-19:10:22.675 : shutdown requested: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+20230427-19:10:22.676 : shutdown

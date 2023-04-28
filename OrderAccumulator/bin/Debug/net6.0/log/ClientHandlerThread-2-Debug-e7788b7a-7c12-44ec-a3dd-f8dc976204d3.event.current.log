@@ -1,0 +1,18 @@
+20230426-04:13:45.875 : connected
+20230426-04:13:45.983 : Error on Session 'FIX.4.2:SIMPLE->CLIENT1': System.IO.IOException: Unable to write data to the transport connection: Foi forçado o cancelamento de uma conexão existente pelo host remoto..
+ ---> System.Net.Sockets.SocketException (10054): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at QuickFix.SocketReader.Send(String data)
+   at QuickFix.ClientHandlerThread.Send(String data)
+   at QuickFix.Session.Send(String message)
+   at QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   at QuickFix.Session.GenerateLogout(Message other, String text)
+   at QuickFix.Session.NextLogout(Message logout)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20230426-04:13:45.983 : SocketReader Error: Socket exception (127.0.0.1:59678): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230426-04:13:45.983 : shutdown requested: Disconnected
+20230426-04:13:45.985 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230426-04:13:45.985 : shutdown

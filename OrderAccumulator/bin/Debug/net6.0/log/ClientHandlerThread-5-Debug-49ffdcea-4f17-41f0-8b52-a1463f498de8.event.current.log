@@ -1,0 +1,11 @@
+20230426-16:53:29.391 : connected
+20230426-16:54:17.599 : Error on Session 'FIX.4.2:SIMPLE->CLIENT1': System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accumulator.FromApp(Message message, SessionID sessionID) in C:\Users\asasc\source\repos\OrderAccumulator\OrderAccumulator\OrderAccumulator.cs:line 27
+   at QuickFix.Session.Verify(Message msg, Boolean checkTooHigh, Boolean checkTooLow)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20230426-16:54:25.790 : Error on Session 'FIX.4.2:SIMPLE->CLIENT1': System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accumulator.FromApp(Message message, SessionID sessionID) in C:\Users\asasc\source\repos\OrderAccumulator\OrderAccumulator\OrderAccumulator.cs:line 27
+   at QuickFix.Session.Verify(Message msg, Boolean checkTooHigh, Boolean checkTooLow)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)

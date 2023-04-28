@@ -1,0 +1,5 @@
+20230426-17:01:56.764 : connected
+20230426-17:02:20.417 : SocketReader Error: Socket exception (127.0.0.1:60524): Uma conexão estabelecida foi anulada pelo software no computador host.
+20230426-17:02:20.418 : shutdown requested: Disconnected
+20230426-17:02:24.416 : shutdown requested: Uma conexão estabelecida foi anulada pelo software no computador host.
+20230426-17:02:24.416 : shutdown

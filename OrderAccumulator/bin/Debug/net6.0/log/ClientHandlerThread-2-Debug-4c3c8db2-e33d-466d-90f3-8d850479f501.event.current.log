@@ -1,0 +1,4 @@
+20230428-00:27:02.041 : connected
+20230428-00:27:11.111 : SocketReader Error: Socket (127.0.0.1:56866): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230428-00:27:11.111 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20230428-00:27:11.111 : shutdown

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <RootNamespace>OrderAccumulator</RootNamespace>
+    <AssemblyName>OrderAccumulator</AssemblyName>
+    <Platforms>AnyCPU;x64</Platforms>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QuickFIXn.Core" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.2" Version="1.10.0" />
+  </ItemGroup>
+
+</Project>
